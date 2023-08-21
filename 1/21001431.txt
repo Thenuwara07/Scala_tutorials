@@ -1,0 +1,47 @@
+------1------
+object MyClass {
+    def area(x:Double) = 3.14*x*x;
+
+    def main(args: Array[String]) {
+        print("Area = " + area(5));
+    }
+}
+
+------2------
+object MyClass {
+    def converter(x:Double) = (x*1.8)+32.00;
+
+    def main(args: Array[String]) {
+        print("Value of fahrenheit = " + converter(35));
+    }
+}
+
+------3------
+object MyClass {
+    def converter(x:Double) = (1.33)*(3.14)*x*x*x;
+
+    def main(args: Array[String]) {
+        print("Volume of a sphere = " + converter(5));
+    }
+}
+
+------4-------
+object MyClass {
+    def cal(x:Int) = (24.95*0.6*x)+(50*3)+((x-50)*0.75);
+
+    def main(args: Array[String]) {
+        print("Total price = " + cal(60));
+    }
+}
+
+------5-------
+object MyClass {
+    def easy(x:Int)= x*8;
+
+    def tempo(y:Int)= y*7;
+
+    def main(args: Array[String]) {
+        var t=easy(4)+tempo(3);
+        print("Total running time = " + t);
+    }
+}

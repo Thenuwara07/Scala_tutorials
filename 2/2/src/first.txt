@@ -1,0 +1,9 @@
+* Scala is a statically typed programming language, whereas Java is a multi-platform, network-centric programming language.
+* Scala uses an actor model for supporting modern concurrency, whereas Java uses the conventional thread-based model for concurrency.
+* Scala variables are by default immutable types, while Java variables are by default mutable types.
+* Scala supports lazy evaluation, while Java doesn’t support lazy evaluation.
+* Scala doesn’t contain static members, whereas Java contains static members.
+* Scala supports operator overloading, whereas Java doesn’t support operator overloading.
+* Scala doesn’t offer backward compatibility, whereas Java offers backward compatibility.
+* Scala is less readable because of nested code, whereas Java is more readable.
+* Scala frameworks are Play and Lift, whereas Java frameworks are Spring, Grails, and many more.
