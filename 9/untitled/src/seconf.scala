@@ -17,7 +17,7 @@ class Rational(n: Int, d: Int) {
   val numer: Int = n / gcdValue
   val denom: Int = d / gcdValue
 
-  def this(n: Int) = this(n, 1) // Auxiliary constructor for whole numbers
+  def this(n: Int) = this(n, 1)
 
   private def gcd(a: Int, b: Int): Int = if (b == 0) a else gcd(b, a % b)
 
